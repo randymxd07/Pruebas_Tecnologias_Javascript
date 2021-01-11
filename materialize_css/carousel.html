@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container section">
+
+        <div class="row">
+
+            <div class="col s12">
+                <div class="carousel carousel-slider">
+                    <a href="" class="carousel-item">
+                        <img src="images/mar_de_noche.jpg" alt="">
+                    </a>
+                    <a href="" class="carousel-item">
+                        <img src="images/marshmello.jpg" alt="">
+                    </a>
+                    <a href="" class="carousel-item">
+                        <img src="images/mountains.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems,{
+                duration: 500,
+                indicators: true,
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modals</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container section">
+
+        <a href="#idModal" class="btn modal-trigger red">Modal Ancla</a>
+
+        <button class="btn modal-trigger blue" data-target="idModal2">Modal Button</button>
+
+        <div id="idModal" class="modal">
+
+            <div class="modal-content">
+                <h4>Lorem, ipsum dolor.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dicta recusandae ipsam quibusdam quam perspiciatis, necessitatibus sint. Incidunt voluptatibus magnam odit molestias nesciunt facilis saepe, tempore omnis sint, consequatur ex?</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn modal-close">Cerrar</a>
+            </div>
+            
+        </div>
+
+        <div id="idModal2" class="modal">
+
+            <div class="modal-content">
+                <h4>Lorem, ipsum dolor 2.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dicta recusandae ipsam quibusdam quam perspiciatis, necessitatibus sint. Incidunt voluptatibus magnam odit molestias nesciunt facilis saepe, tempore omnis sint, consequatur ex?</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn modal-close">Cerrar</a>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems);
+        });
+    </script>
+</body>
+</html>

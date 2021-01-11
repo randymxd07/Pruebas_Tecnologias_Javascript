@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Complete</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container section">
+
+        <div class="row">
+
+            <div class="input-field col s6">
+                <i class="material-icons prefix">search</i>
+                <input type="text" id="buscar" class="autocomplete">
+                <label for="buscar">Buscar</label>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container" id="respuesta">
+        
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            var options = {
+                data: {
+                    "Apple": null,
+                    "Microsoft": null,
+                    "Google": 'https://placehold.it/250x250'
+                },
+                onAutocomplete: function(texto){
+                    // alert(`diste click ${texto}`);
+                    respuesta.innerHTML = `<h3>Soy un elemento dinamico: ${texto} </h3>`;
+                }
+            }
+            var elems = document.querySelectorAll('.autocomplete');
+            var instances = M.Autocomplete.init(elems, options);
+        });
+
+        const respuesta = document.getElementById('respuesta');
+
+    </script>
+</body>
+</html>

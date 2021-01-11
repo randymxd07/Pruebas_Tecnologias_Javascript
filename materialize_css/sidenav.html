@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidenav</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container section">
+
+        <a href="#" class="sidenav-trigger" data-target="menu-side">
+            <i class="material-icons">menu</i>
+        </a>
+
+        <ul class="sidenav" id="menu-side">
+
+            <li>
+
+                <div class="user-view">
+
+                    <div class="background">
+                        <img src="images/winter.jpg" alt="">
+                    </div>
+
+                    <a href="#">
+                        <img src="images/marshmello.jpg" alt="" class="circle">
+                    </a>
+
+                    <a href="#">
+                        <span class="name white-text">Randy Martínez</span>
+                    </a>
+
+                    <a href="#">
+                        <span class="email white-text">randym0624@gmail.com</span>
+                    </a>
+
+                </div>
+
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="material-icons">cloud</i>
+                    Primer Elemento
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="material-icons">cloud</i>
+                    Segundo Elemento
+                </a>
+            </li>
+
+            <li>
+                <div class="divider"></div>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="material-icons">cloud</i>
+                    Tercer Elemento
+                </a>
+            </li>
+            
+        </ul>
+
+    </div>
+
+    <div class="container section">
+
+        <div class="row">
+
+            <div class="col s12">
+
+            </div>
+
+            <div class="col s6">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems);
+        });
+    </script>
+</body>
+</html>

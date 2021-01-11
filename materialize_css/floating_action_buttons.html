@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Action Buttons</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    <div class="fixed-action-btn">
+
+        <a class="btn-floating red btn-large">
+            <i class="material-icons large">mode_edit</i>
+        </a>
+        <ul>
+            <li>
+                <a href="#" class="btn-floating blue">
+                    <i class="material-icons">colorize</i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="btn-floating lime">
+                    <i class="material-icons">collections</i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="btn-floating purple  ">
+                    <i class="material-icons">insert_emoticon</i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="btn-floating grey">
+                    <i class="material-icons">visibility</i>
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.fixed-action-btn');
+            var instances = M.FloatingActionButton.init(elems,{
+                // direction: 'left',
+                // hoverEnabled: false
+                // toolbarEnabled: true
+            });
+        });
+    </script>
+</body>
+</html>
