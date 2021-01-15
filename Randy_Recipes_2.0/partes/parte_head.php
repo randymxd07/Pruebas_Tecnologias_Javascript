@@ -28,7 +28,7 @@
     <link rel="shortcut icon" href="images/randylogo.png" type="image/x-icon">
 
     <!--FontAwesome y su CDN-->
-    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
@@ -36,14 +36,14 @@
 <body class="<?php echo $fondo ?>">
 
 <!-- Menú Superior -->
-<div class="container-fluid fondo">
+<div id="inicio" class="container-fluid fondo">
 
     <nav class="nav-wrapper">
 
         <div class="row">
 
             <!-- Logo y Nombre de la Empresa -->
-            <div class="col-sm-7">
+            <div class="col-sm-6">
                 <a href="index.html" class="brand-logo left lead">
                     <img class="responsive-img randylogo" src="images/randylogo.png" alt="Randy Logo">
                     <span class="bigtext">Randy's Recipes</span>
@@ -51,7 +51,7 @@
             </div>
 
             <!-- Icono de Menú y Enlaces para Iniciar Sesión y Registrarse -->
-            <div class="col-sm-5">
+            <div class="col-sm-6">
 
                 <!-- Icono -->
                 <a href="#" data-target="menu-responsive" class="sidenav-trigger right">
@@ -60,8 +60,8 @@
 
                 <!-- Enlaces para Iniciar Sesión y Registrarse -->
                 <ul class="right hide-on-med-and-down section naranja">
-                    <li><a href="#" class="bigtext"><i class="fa fa-sign-in" aria-hidden="true"></i> Iniciar Sesión</a></li>
-                    <li><a href="#" class="bigtext"><i class="fa fa-user-plus" aria-hidden="true"></i> Registrarse</a></li>
+                    <li><a href="#" class="bigtext waves-effect waves-light"><i class="fa fa-sign-in" aria-hidden="true"></i> Iniciar Sesión</a></li>
+                    <li><a href="#" class="bigtext waves-effect waves-light"><i class="fa fa-user-plus" aria-hidden="true"></i> Registrarse</a></li>
                 </ul>
 
             </div>
@@ -128,23 +128,23 @@
 
     <div class="row">
 
-        <div class="col-sm-12 col-md section btn-large grey">
+        <div class="col-sm-12 col-md section btn-large grey waves-effect waves-light">
             <a href="index.php" class="blanco nav-link"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a>
         </div>
 
-        <div class="col-sm-12 col-md section btn-large grey">
+        <div class="col-sm-12 col-md section btn-large grey waves-effect waves-light">
             <a href="sobre_nosotros.php" class="blanco nav-link"><i class="fa fa-users" aria-hidden="true"></i> Sobre Nosotros</a>
         </div>
 
-        <div class="col-sm-12 col-md section btn-large grey">
+        <div class="col-sm-12 col-md section btn-large grey waves-effect waves-light">
             <a href="#" class="blanco nav-link"><i class="fa fa-cutlery" aria-hidden="true"></i> Recetas</a>
         </div>
 
-        <div class="col-sm-12 col-md section btn-large grey">
+        <div class="col-sm-12 col-md section btn-large grey waves-effect waves-light">
             <a href="#" class="blanco nav-link"><i class="fa fa-picture-o" aria-hidden="true"></i> Galería</a>
         </div>
 
-        <div class="col-sm-12 col-md section btn-large grey">
+        <div class="col-sm-12 col-md section btn-large grey waves-effect waves-light">
             <a href="#" class="blanco nav-link"><i class="fa fa-phone" aria-hidden="true"></i> Contactanos</a>
         </div>
 
