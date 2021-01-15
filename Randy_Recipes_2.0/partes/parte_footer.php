@@ -1,7 +1,7 @@
     
     <!-- A todos los lead tendrán unn tamaño de 20px -->
     <!-- Lo hice en una etiqueta style porque los estilos no se estan aplicando -->
-    <style>.lead{font-size: 20px;}</style>
+    <style>.lead{font-size: 20px;} .btn-floating{font-size: 17px;}</style>
 
     <!-- Bootstrap Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
