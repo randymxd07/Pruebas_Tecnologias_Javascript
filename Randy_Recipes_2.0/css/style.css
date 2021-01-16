@@ -9,6 +9,7 @@
 
 .fondo{
     background: url(../images/FONDO.jpg);
+    background-size: cover;
 }
 
 .bigtext{

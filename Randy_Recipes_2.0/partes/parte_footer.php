@@ -1,24 +1,31 @@
-    
     <!-- A todos los lead tendrán unn tamaño de 20px -->
     <!-- Lo hice en una etiqueta style porque los estilos no se estan aplicando -->
     <style>
-    .lead{font-size: 20px;} 
-    .btn-floating{font-size: 17px;}
-    .galeria{
-        background: url(images/fondo_de_registro_y_inicio_de_sesion.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .recetas{
-        background: url(images/menuimagen.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .contactos{
-        background: url(images/contactus.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+        .lead {
+            font-size: 20px;
+        }
+
+        .btn-floating {
+            font-size: 17px;
+        }
+
+        .galeria {
+            background: url(images/fondo_de_registro_y_inicio_de_sesion.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .recetas {
+            background: url(images/menuimagen.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .contactos {
+            background: url(images/contactus.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     </style>
 
     <!-- Bootstrap Scripts -->
@@ -30,7 +37,6 @@
 
     <!-- Scripts de emergencia -->
     <script>
-        
         document.addEventListener('DOMContentLoaded', function() {
 
             // Sidenav //
@@ -43,7 +49,7 @@
 
             // Fixed-Action-Btn //
             var elems = document.querySelectorAll('.fixed-action-btn');
-            var instances = M.FloatingActionButton.init(elems,{
+            var instances = M.FloatingActionButton.init(elems, {
                 // direction: 'left',
                 // hoverEnabled: false
                 toolbarEnabled: true
@@ -71,6 +77,18 @@
 
         });
 
+        window.addEventListener('load', () => {
+
+            setTimeout(carga, 2000);
+
+            //carga();
+
+            function carga() {
+                document.getElementById('circulo').className = 'hide'
+                document.getElementById('contenido').className = 'center animate__animated animate__fadeInDown'
+            }
+
+        });
     </script>
 
     </body>
