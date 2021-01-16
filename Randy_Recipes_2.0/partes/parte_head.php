@@ -84,16 +84,12 @@
                 <img src="images/winter.jpg" alt="imagen-fondo">
             </div>
 
-            <a href="#">
-                <img src="images/marshmello.jpg" alt="foto-perfil" class="circle">
-            </a>
+            <div>
+                <img src="images/randylogo.png" alt="foto-perfil" class="circle">
+            </div>
 
             <a href="#">
-                <span class="name white-text">Randy Martínez</span>
-            </a>
-
-            <a href="#">
-                <span class="email white-text">randym0624@gmail.com</span>
+                <span class="bigtext white-text">Randy's Recipes</span>
             </a>
 
         </div>
@@ -108,11 +104,6 @@
         </a>
     </li>
 
-    <!-- Linea Divisora del Sidenav-->
-    <li>
-        <div class="divider"></div>
-    </li>
-
     <!-- Registrarse del Sidenav-->
     <li>
         <a href="#">
@@ -121,12 +112,52 @@
         </a>
     </li>
 
+    <!-- Linea Divisora del Sidenav-->
+    <li>
+        <div class="divider"></div>
+    </li>
+
+    <li>
+        <a href="index.php">
+            <i class="fa fa-home" aria-hidden="true"></i> 
+            Inicio
+        </a>
+    </li>
+
+    <li>
+        <a href="sobre_nosotros.php">
+            <i class="fa fa-users" aria-hidden="true"></i> 
+            Sobre Nosotros
+        </a>
+    </li>
+
+    <li>
+        <a href="recetas.php">
+            <i class="fa fa-cutlery" aria-hidden="true"></i> 
+            Recetas
+        </a>
+    </li>
+
+    <li>
+        <a href="galeria.php">
+            <i class="fa fa-picture-o" aria-hidden="true"></i> 
+            Galería
+        </a>
+    </li>
+
+    <li>
+        <a href="contacto.php">
+            <i class="fa fa-phone" aria-hidden="true"></i> 
+            Contactanos
+        </a>
+    </li>
+
 </ul><!-- Fin del Sidenav -->
 
 <!-- Menú Inferior -->
 <div class="grey center">
 
-    <div class="row">
+    <div class="row hide-on-med-and-down">
 
         <div class="col-sm-12 col-md section btn-large grey waves-effect waves-light">
             <a href="index.php" class="blanco nav-link"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a>
@@ -137,15 +168,15 @@
         </div>
 
         <div class="col-sm-12 col-md section btn-large grey waves-effect waves-light">
-            <a href="#" class="blanco nav-link"><i class="fa fa-cutlery" aria-hidden="true"></i> Recetas</a>
+            <a href="recetas.php" class="blanco nav-link"><i class="fa fa-cutlery" aria-hidden="true"></i> Recetas</a>
         </div>
 
         <div class="col-sm-12 col-md section btn-large grey waves-effect waves-light">
-            <a href="#" class="blanco nav-link"><i class="fa fa-picture-o" aria-hidden="true"></i> Galería</a>
+            <a href="galeria.php" class="blanco nav-link"><i class="fa fa-picture-o" aria-hidden="true"></i> Galería</a>
         </div>
 
         <div class="col-sm-12 col-md section btn-large grey waves-effect waves-light">
-            <a href="#" class="blanco nav-link"><i class="fa fa-phone" aria-hidden="true"></i> Contactanos</a>
+            <a href="contacto.php" class="blanco nav-link"><i class="fa fa-phone" aria-hidden="true"></i> Contactanos</a>
         </div>
 
     </div>

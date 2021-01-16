@@ -40,7 +40,7 @@
                     <article class="col-md-8">
                         <h2 id="historia">Historia</h2>
                         <div class="row">
-                            <div class="col-sm-12 col-md-6">
+                            <div class="col-sm-12 col-md-6 mb-4">
                                 <img class="responsive-img materialboxed" src="./images/casadondenaciorandy.jpg" alt="imagen">
                             </div>
                             <div class="col-sm-12 col-md-6">
@@ -79,7 +79,7 @@
 
                     <div class="row bg-white">
 
-                        <div class="col-md-12 mt-5">
+                        <div class="col-md-12 mt-5 mb-5">
                             <h2 class="mb-5" id="valores">Valores</h2>
                             <ul class="lead" style="text-align: justify;">
                                 <li><b>Confianza:</b> Se refiere a la calidad de las relaciones que se establecen en el interior de una empresa. Si las dinámicas son fluidas y eficaces, el nivel de confianza entre los trabajadores será alto y las relaciones muy productivas. Esa misma confianza se transmitirá en el momento de tratar con los clientes.</li>
