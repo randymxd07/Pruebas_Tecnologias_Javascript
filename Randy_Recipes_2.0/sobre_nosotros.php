@@ -100,7 +100,7 @@
 
             <div class="fixed-action-btn toolbar">
 
-                <a class="btn-floating red btn-large">
+                <a class="btn-floating red btn-large pulse">
                     <i class="material-icons large">search</i>
                 </a>
                 

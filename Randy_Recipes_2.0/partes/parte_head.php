@@ -54,7 +54,7 @@
                 <div class="col-sm-6">
 
                     <!-- Icono -->
-                    <a href="#" data-target="menu-responsive" class="sidenav-trigger right">
+                    <a href="#" data-target="menu-responsive" class="sidenav-trigger right naranja">
                         <i class="material-icons section">menu</i>
                     </a>
 

@@ -26,6 +26,43 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+
+        img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+            display: none;
+        }
+
+        /* label color */
+        .input-field label {
+            color: white;
+        }
+
+        /* label focus color */
+        .input-field input[type=text]:focus+label {
+            color: white;
+        }
+
+        /* label underline focus color */
+        .input-field input[type=text]:focus {
+            border-bottom: 1px solid white;
+            box-shadow: 0 1px 0 0 white;
+        }
+
+        /* icon prefix focus color */
+        .input-field .prefix.active {
+            color: white;
+        }
+
+        input {
+            color: white;
+        }
+
+        textarea {
+            color: white;
+        }
+
+        .white {
+            color: white;
+        }
     </style>
 
     <!-- Bootstrap Scripts -->
@@ -75,18 +112,8 @@
             //     indicators: true,
             // });
 
-        });
-
-        window.addEventListener('load', () => {
-
-            setTimeout(carga, 2000);
-
-            //carga();
-
-            function carga() {
-                document.getElementById('circulo').className = 'hide'
-                document.getElementById('contenido').className = 'center animate__animated animate__fadeInDown'
-            }
+            var elems = document.querySelectorAll('select');
+            var instances = M.FormSelect.init(elems);
 
         });
     </script>

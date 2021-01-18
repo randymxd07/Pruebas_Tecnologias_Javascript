@@ -63,16 +63,18 @@
 <!--Este section contiene todas las imagenes de la galeria-->
 <section class="container bg-white">
 
-    <h2 class="text-center"><i class="fa fa-picture-o" aria-hidden="true"></i> Galería</h2>
+    <h2 class="text-center section"><i class="fa fa-picture-o" aria-hidden="true"></i> Galería</h2>
+
+    <hr>
 
     <div class="row text-center">
-        <div class="col-sm-12 col-md-4 mb-4">
+        <div class="col-sm-12 col-md-4 mb-4 mt-4">
             <img class="responsive-img materialboxed" src="images/post1.jpg" alt="post1">
         </div>
-        <div class="col-sm-12 col-md-4 mb-4">
+        <div class="col-sm-12 col-md-4 mb-4 mt-4">
             <img class="responsive-img materialboxed" src="images/post2.jpg" alt="post2">
         </div>
-        <div class="col-sm-12 col-md-4 mb-4">
+        <div class="col-sm-12 col-md-4 mb-4 mt-4">
             <img class="responsive-img materialboxed" src="images/post3.jpg" alt="post3">
         </div>
     </div>
@@ -113,10 +115,20 @@
         </div>
     </div>
 
-    <div class="row mt-4 section">
-        <div class="col text-right waves-effect waves-light naranja">
-            <a class="btn grey" href="#">Siguiente</a>
-        </div>
+    <hr>
+
+    <div class="row mt-2 section">
+
+        <ul class="pagination" style="justify-content: center;">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active"><a href="#!">1</a></li>
+            <li class="waves-effect"><a href="#!">2</a></li>
+            <li class="waves-effect"><a href="#!">3</a></li>
+            <li class="waves-effect"><a href="#!">4</a></li>
+            <li class="waves-effect"><a href="#!">5</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+        </ul>
+        
     </div>
 
 </section>
