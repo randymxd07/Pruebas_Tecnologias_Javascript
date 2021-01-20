@@ -63,6 +63,14 @@
         .white {
             color: white;
         }
+
+        div a span {
+            color: white;
+        }
+        
+        div p a{
+            color: white;
+        }
     </style>
 
     <!-- Bootstrap Scripts -->
