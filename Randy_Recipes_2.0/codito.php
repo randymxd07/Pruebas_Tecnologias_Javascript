@@ -12,13 +12,15 @@
         </div>
     </div>
 
-    <div style="text-align: justify; font-size: 20px;">
+    <div >
         <h1 class="mt-5" id="descripcion">Ensalada de Coditos con Atún</h1>
         <hr>
-        <p>La ensalada de codito es una ensalada cuyo principal ingrediente es la pasta cocida, que se suele acompañar de verduras finamente cortadas en una vinagreta (o cualquier otra salsa fundamentada en mayonesa).</p>
-        <p>Este tipo de ensalada se suele servir fría, por lo que suele presentarse en los meses calurosos de verano. Además, las ensaladas de pasta son un clásico que no pasa de moda y permite combinaciones para todos los gustos</p>
-        <p>En lugares como Estados Unidos es una ensalada muy habitual en los denominados Salad bar.</p>
-        <p>En el caso de la pasta suele cocerse. Es habitual emplear una pasta con formas que ofrezcan una gran superficie, como pueden ser el farfalle, fusilli, tortiglioni, etc.3​ Las verduras empleadas como acompañamiento de la pasta suelen ser champiñones, setas, calabacines, zanahorias, cebollas, tomates, guisantes, a veces legumbres, etc. En algunas ocasiones se vierten encurtidos diversos finamente picados, o para acompañar el sabor ácido salsas como la vinagreta o escabeches de pescado.</p>
+        <div class="" style="text-align: justify; font-size: 20px;">
+            <p>La ensalada de codito es una ensalada cuyo principal ingrediente es la pasta cocida, que se suele acompañar de verduras finamente cortadas en una vinagreta (o cualquier otra salsa fundamentada en mayonesa).</p>
+            <p>Este tipo de ensalada se suele servir fría, por lo que suele presentarse en los meses calurosos de verano. Además, las ensaladas de pasta son un clásico que no pasa de moda y permite combinaciones para todos los gustos</p>
+            <p>En lugares como Estados Unidos es una ensalada muy habitual en los denominados Salad bar.</p>
+            <p>En el caso de la pasta suele cocerse. Es habitual emplear una pasta con formas que ofrezcan una gran superficie, como pueden ser el farfalle, fusilli, tortiglioni, etc.3​ Las verduras empleadas como acompañamiento de la pasta suelen ser champiñones, setas, calabacines, zanahorias, cebollas, tomates, guisantes, a veces legumbres, etc. En algunas ocasiones se vierten encurtidos diversos finamente picados, o para acompañar el sabor ácido salsas como la vinagreta o escabeches de pescado.</p>
+        </div>
     </div>
 
     <div style="text-align: justify; font-size: 20px;">

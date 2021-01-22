@@ -81,4 +81,10 @@
 
     </div>
 
+    <div class="row">
+        <div class="col">
+            <p class="lead" style="color: white; text-align: right;">Randy's Recipes</p>
+        </div>
+    </div>
+
 </footer>

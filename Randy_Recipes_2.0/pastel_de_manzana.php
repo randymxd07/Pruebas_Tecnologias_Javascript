@@ -12,15 +12,17 @@
         </div>
     </div>
 
-    <div style="text-align: justify; font-size: 20px;">
+    <div>
         <h1 class="mt-5" id="descripcion">Pastel de manzana</h1>
         <hr>
+        <div class="" style="text-align: justify; font-size: 20px;">
         <p>La tarta de manzana o pastel de manzana es una tarta de fruta elaborada con una masa recubierta de manzana. Existen muchas variantes y la manzana puede ser troceada o en compota. Las manzanas pueden colocarse directamente encima de la masa o sobre una base de crema. Existen variantes en las que la masa envuelve toda la fruta, como en la apple pie tradicional anglosajona, o que se elaboran al revés colocando la masa sobre la fruta para darle luego la vuelta, como en la Tarte Tatin francesa. Es una de las tartas de fruta más populares e internacionales.</p>
         <p>La tarta de manzana es una tarta de fruta elaborada con una masa recubierta de manzana. Existen muchas variantes y la manzana puede ser troceada o en compota. Las manzanas pueden colocarse directamente encima de la masa o sobre una base de crema. Existen variantes en las que la masa envuelve toda la fruta, como en la apple pie tradicional anglosajona, o que se elaboran al revés colocando la masa sobre la fruta para darle luego la vuelta, como en la Tarte Tatin francesa. Es una de las tartas de fruta más populares e internacionales.</p>
         <p>La masa de la tarta se elabora con harina de trigo, agua, mantequilla y a veces huevo. Puede ser una masa quebrada o una masa de hojaldre. Una vez amasada, se coloca la masa en el horno a mediana temperatura, y aquella debe tomar consistencia para que proporcione un buen soporte a la tarta. Algunas variantes cerradas de la tarta hacen que la manzana se cueza en su interior, haciendo la masa de envoltorio que retiene los holas.</p>
         <p>Se considera a veces que las variedades de manzanas algo ácidas son más adecuadas, con la intención de que hagan contraste con los tonos dulces del azúcar. Las variedades más empleadas son Reineta, Golden y Granny Smith aunque cualquier variedad local sirve. Se suele utilizar manzanas frescas, y las manzanas envasadas o incluso deshidratadas suelen emplearse sólo cuando las frescas no están disponibles.
             Para que la tarta no resulte demasiado seca, se tapiza a veces la masa con una capa de crema sobre la que se colocan los gajos de manzana.
             Se han añadido pasas y algunas variantes australianas emplean crema en la parte superior.</p>
+        </div>
     </div>
 
     <div style="text-align: justify; font-size: 20px;">
