@@ -52,9 +52,9 @@
         <div class="col-sm-12 col-md section text-center white-text" style="text-align: justify;">
             <p class="lead">Mis Redes</p>
             <div class="naranja">
-                <p><a href="https://www.facebook.com/thehairland"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></p>
-                <p><a href="https://www.instagram.com/randymxd06/"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></p>
-                <p><a href="https://www.youtube.com/channel/UCdaj6Zi7hlp3HoPXSm_Er2g?view_as=subscriber"><i class="fa fa-youtube-play" aria-hidden="true"></i> youtube</a></p>
+                <p><a target="blank" href="https://www.facebook.com/thehairland"><i class="fa fa-facebook-official" aria-hidden="true"></i> Facebook</a></p>
+                <p><a target="blank" href="https://www.instagram.com/randymxd06/"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></p>
+                <p><a target="blank" href="https://www.youtube.com/channel/UCdaj6Zi7hlp3HoPXSm_Er2g?view_as=subscriber"><i class="fa fa-youtube-play" aria-hidden="true"></i> youtube</a></p>
             </div>
         </div>
 
@@ -71,11 +71,11 @@
         <div class="col-sm-12 col-md section text-center white-text" style="text-align: justify;">
             <p class="lead ">Correos Electronicos</p>
             <div class="naranja">
-                <p><a href="#">randym0624@gmail.com</a></p>
-                <p><a href="#">randym062015@gmail.com</a></p>
-                <p><a href="#">randym062016@gmail.com</a></p>
-                <p><a href="#">randym062017@gmail.com</a></p>
-                <p><a href="#">xd06gamer@gmail.com</a></p>
+                <p>randym0624@gmail.com</p>
+                <p>randym062015@gmail.com</p>
+                <p>randym062016@gmail.com</p>
+                <p>randym062017@gmail.com</p>
+                <p>xd06gamer@gmail.com</p>
             </div>
         </div>
 
