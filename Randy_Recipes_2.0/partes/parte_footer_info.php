@@ -45,7 +45,7 @@
                 <p><a target="blank" href="https://es.wikipedia.org/wiki/Churro">Churros</a></p>
                 <p><a target="blank" href="https://es.wikipedia.org/wiki/Tarta_de_manzana">Pastel de Manzana</a></p>
                 <p><a target="blank" href="https://es.wikipedia.org/wiki/Ensalada_de_pasta">Ensalada de Coditos</a></p>
-                <p><a href="https://www.pizcadesabor.com/">Pizca de Sabor (pagina web)</a></p>
+                <p><a target="blank" href="https://www.pizcadesabor.com/">Pizca de Sabor (pagina web)</a></p>
             </div>
         </div>
 
