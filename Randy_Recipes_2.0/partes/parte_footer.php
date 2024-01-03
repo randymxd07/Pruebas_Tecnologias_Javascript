@@ -9,6 +9,14 @@
             font-size: 17px;
         }
 
+        .auth {
+            background: url(images/fondo_de_registro_y_inicio_de_sesion.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+        }
+
         .galeria {
             background: url(images/fondo_de_registro_y_inicio_de_sesion.jpg);
             background-repeat: no-repeat;
@@ -25,6 +33,8 @@
             background: url(images/contactus.png);
             background-repeat: no-repeat;
             background-size: cover;
+            width: 100%;
+            height: 100vh;
         }
 
         img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {

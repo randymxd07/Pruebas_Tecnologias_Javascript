@@ -3,7 +3,7 @@
 
 <?php include_once "partes/parte_head.php" ?>
 
-<div class="container section form-control mt-2 mb-2" style="background: rgba(128, 128, 128, 0.795); color: white;">
+<div class="container section form-control mt-5 mb-2" style="background: rgba(128, 128, 128, 0.795); color: white;">
 
     <p class="center bigtext section"><i class="fa fa-phone" aria-hidden="true"></i> Contactanos</p>
 
